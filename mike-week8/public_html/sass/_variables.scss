@@ -3,20 +3,25 @@
 // -----------------------------------------------------------------------------
 
 //Colour
-$light-green: #ABCCA7 !default;
-$dark-green: #6D826A !default;
-$light-blue: #A7ABCC !default;
-$light-red: #CCA7AB !default;
-$grey: #4d4d4d !default;
+$yellow: #F3C36A !default;
+$orange: #D96941 !default;
+$light-blue: #D6EBF3 !default;
+$grey: #4A585E !default;
+$dark-grey: #4A4747 !default;
+$red: #D9593D !default;
 $white: #ffffff !default;
-$black: #000000 !default;
+$black: #333333 !default;
 
 //Typography
-$serif: 'Minion Pro Bold', 'Times New Roman', 'Times', serif !default;
-$sans-serif: 'Myriad Pro', 'Helvetica Neue', 'Arial', sans-serif !default;
-$sans-serif-bold: 'Myriad Pro Bold', 'Helvetica Neue Bold', 'Helvetica', sans-serif !default;
+$orbitron: 'Orbitron', 'Helvetica', sans-serif !default;
+$ceviche: 'Ceviche One', 'Helvetica Neue', sans-serif,  !default;
+$hammersmith: 'Hammersmith One', 'Arial', sans-serif !default;
+$openSans: 'Open Sans', 'Arial', sans-serif !default;
 
 //margins
 $spacing-small: em-calc(15);
 $spacing-medium: em-calc(30);
 $spacing-large: em-calc(60);
+
+//border
+$border: em-calc(15) solid #4A585E;

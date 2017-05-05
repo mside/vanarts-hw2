@@ -6,8 +6,6 @@
 
 // Comment out this import if you are customizing you imports below
 //@import "foundation";
-
-@import "fonts";
 @import "variables";
 @import "typography";
 @import 'base';
@@ -15,10 +13,7 @@
 @import "components/button";
 @import "components/footer";
 @import "pages/index";
-//@import 'pages/contact';
-//@import 'pages/works';
-
-
+@import 'pages/monstars';
 
 // Import specific parts of Foundation by commenting the import "foundation"
 // and uncommenting what you want below. You must uncomment the following if customizing

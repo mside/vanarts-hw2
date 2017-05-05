@@ -1,11 +1,7 @@
-<div class="hero-sizing"></div>
-<div class='header-logo'>
-	<img src="img/logo.png" alt='ellory buscemi technology writer'>
-</div>
-<div class='menu'>
+<div class='menu large-12 columns'>
 	<ul>
-		<li><a href="contact.php">contact</a></li>
-		<li><a href="works.php">works</a></li>
-		<li><a href="index.php">home</a></li>
+		<li><a class="nav-logo" href="index.php"><img src="img/logo.png" alt='neo monstars logo'></a></li>
+		<li><a class="nav-links" href="index.php">home</a></li>
+		<li><a class="nav-links" href="monstars.php">Neo Monstars</a></li>
 	</ul>
 </div>

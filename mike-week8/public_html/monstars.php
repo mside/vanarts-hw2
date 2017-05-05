@@ -31,26 +31,19 @@
 
 	<div class='content-background'>
 		<div class="pageContent row">
-			<h1>Choose Your Phone</h1>
-			<div class="large-4 columns">
-				<h3 class="center">iPhone</h3>
-				<div class="phones"><img src="img/iphone.jpg" alt="Neo Monstars for iphone"></div>
-				<div class="appButton"><a href="https://itunes.apple.com"><img src="img/app-store.jpg" alt="Download Neo Monstars for iphone"></a>
-			</div>
-		</div>
-		<div class="large-4 columns">
-			<h3 class="center">Android</h3>
-			<div class="phones"><img src="img/android.jpg" alt="Neo Monstars for android"></div>
-			<div class="appButton"><a href="https://itunes.apple.com"><img src="img/google-play.jpg" alt="Download Neo Monstars for android"></a>
-		</div>
+      <h1>Check Em All</h1>
+        <div class="monstar-text large-6 columns">
+          <h3>Name</h3>
+          <h3>Habitat</h3>
+          <h3>Special Attack</h3>
+          <p>This Neo MonStar - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+        <div class="image-container large-6 columns">
+          <img class="monstar-img" src="img/belfegoth.png" alt="belfegoth neo monstar">
+          <img class="thumb" src="img/belfegoth-thumb.png" alt="belfegoth neo monstar thumbnail">
+        </div>
 	</div>
-	<div class="large-4 columns">
-		<h3 class="center">Windows</h3>
-		<div class="phones"><img src="img/windows.jpg" alt="Neo Monstars for windows"></div>
-		<div class="appButton"><a href="https://itunes.apple.com"><img src="img/windows-store.jpg" alt="Download Neo Monstars for windows"></a>
-	</div>
-</div>
-	</div>
+  </div>
 
 	<?php include "partials/footer.php"; ?>
 </body>
