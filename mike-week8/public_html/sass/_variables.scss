@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+//Colour
+$light-green: #ABCCA7 !default;
+$dark-green: #6D826A !default;
+$light-blue: #A7ABCC !default;
+$light-red: #CCA7AB !default;
+$grey: #4d4d4d !default;
+$white: #ffffff !default;
+$black: #000000 !default;
+
+//Typography
+$serif: 'Minion Pro Bold', 'Times New Roman', 'Times', serif !default;
+$sans-serif: 'Myriad Pro', 'Helvetica Neue', 'Arial', sans-serif !default;
+$sans-serif-bold: 'Myriad Pro Bold', 'Helvetica Neue Bold', 'Helvetica', sans-serif !default;
+
+//margins
+$spacing-small: em-calc(15);
+$spacing-medium: em-calc(30);
+$spacing-large: em-calc(60);

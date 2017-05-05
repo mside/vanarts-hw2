@@ -1,0 +1,9 @@
+.footer{
+  background-color: $light-blue;
+  padding: $spacing-medium;
+  img{
+    display: block;
+    width: em-calc(252);
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,24 @@
+.hero-index{
+  background-image: url('../img/banner-contact.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: 100% auto;
+}
+
+.about{
+  padding: $spacing-medium;
+  margin-top: $spacing-large;
+  margin-bottom: $spacing-large;
+  background-image: url('../img/ellory-home-big.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: 100% auto;
+}
+
+.about-container{
+  h1, h2, h3, p{
+    color: $white;
+  }
+}
