@@ -1,0 +1,28 @@
+h1{
+  font-size: em-calc(40);
+  font-family: $ceviche;
+  color: $black;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h2{
+  font-size: em-calc(26);
+  font-family: $ceviche;
+  color: $black;
+  text-transform: capitalize;
+}
+
+h3{
+  font-size: em-calc(20);
+  font-family: $orbitron;
+  color: $black;
+  text-transform: capitalize;
+}
+
+p{
+  font-size: em-calc(16);
+  font-family: $hammersmith;
+  color: $black;
+  line-height: 140%;
+}

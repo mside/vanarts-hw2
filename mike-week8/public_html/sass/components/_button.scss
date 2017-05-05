@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.c2a {
+  width: em-calc(150);
+  height: em-calc(50);
+  background-color: $light-blue;
+        a{
+          line-height: em-calc(50);
+          text-decoration: none;
+
+
+          text-align: center;
+          font-size: em-calc(20);
+        }
+        &:hover {
+
+          cursor: pointer;
+        }
+}

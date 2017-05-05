@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+//Colour
+$yellow: #F3C36A !default;
+$orange: #D96941 !default;
+$light-blue: #D6EBF3 !default;
+$grey: #4A585E !default;
+$dark-grey: #4A4747 !default;
+$red: #D9593D !default;
+$white: #ffffff !default;
+$black: #333333 !default;
+
+//Typography
+$orbitron: 'Orbitron', 'Helvetica', sans-serif !default;
+$ceviche: 'Ceviche One', 'Helvetica Neue', sans-serif,  !default;
+$hammersmith: 'Hammersmith One', 'Arial', sans-serif !default;
+$openSans: 'Open Sans', 'Arial', sans-serif !default;
+
+//margins
+$spacing-small: em-calc(15);
+$spacing-medium: em-calc(30);
+$spacing-large: em-calc(60);
+
+//border
+$border: em-calc(15) solid #4A585E;

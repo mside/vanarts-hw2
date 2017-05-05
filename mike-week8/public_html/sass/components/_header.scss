@@ -1,0 +1,52 @@
+.header-wrapper{
+  clear: both;
+  position:relative;
+  width: 100%;
+  height: em-calc(450);
+  background-color: rgba(214, 235, 243, .5);
+  background-image: url('../img/background-explode.png');
+  background-repeat: repeat;
+  background-position: 0px 0px;
+
+  animation: animatedBackground 20s linear infinite;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+.banner{
+  padding: em-calc(50);
+}
+
+.menu{
+  height: em-calc(100);
+  a{
+    float: left;
+    display: block;
+  }
+}
+
+.nav-logo{
+  max-width: em-calc(250);
+  margin-top: em-calc(-50);
+}
+
+.nav-links{
+  text-align: center;
+  text-decoration: none;
+  margin-left: em-calc(10);
+  font-family: $ceviche;
+  color: $orange;
+  text-transform: capitalize;
+  font-size: em-calc(50);
+  &:hover{
+    color: $black;
+  }
+}
+
+.banner-container{
+  float: right;
+  width: em-calc(220);
+}
