@@ -1,24 +1,29 @@
-.hero-index{
-  background-image: url('../img/banner-contact.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center;
-  background-size: 100% auto;
+.content-background{
+  background-color: $yellow;
 }
 
-.about{
+.pageContent{
   padding: $spacing-medium;
-  margin-top: $spacing-large;
-  margin-bottom: $spacing-large;
-  background-image: url('../img/ellory-home-big.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center;
-  background-size: 100% auto;
+  padding-top: 0;
+  background-color:  $white;
+  border: $border;
 }
 
-.about-container{
-  h1, h2, h3, p{
-    color: $white;
-  }
+.phones{
+  display: block;
+  margin-top: $spacing-small;
+  margin-bottom: $spacing-small;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: em-calc(220);
+}
+
+.appButton{
+  display: block;
+  margin: 0 auto;
+  max-width: em-calc(150);
+}
+
+.center{
+  text-align: center;
 }

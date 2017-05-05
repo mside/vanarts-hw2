@@ -1,0 +1,27 @@
+.monstar-text{
+  padding: $spacing-medium;
+  &:nth-child(even){
+
+  }
+  &:nth-child(odd){
+
+  }
+  h3{
+    margin: em-calc(15) 0;
+  }
+}
+
+.image-container{
+  position: relative;
+}
+
+.monstar-img{
+  position: relative;
+}
+
+.thumb{
+  position: absolute;
+  max-width: em-calc(50);
+  left: em-calc(10);
+  bottom: em-calc(10);
+}
